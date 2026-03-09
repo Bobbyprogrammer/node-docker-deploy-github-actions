@@ -5,7 +5,7 @@ const app=express();
 const PORT=process.env.PORT ?? 8080
 
 app.get("/",(req,res)=>{
-    return res.json({msg:"Server is running"})
+    return res.json({msg:"Server is running v1"})
 })
 
 app.listen(PORT,()=>{
